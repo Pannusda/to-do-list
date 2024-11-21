@@ -1,0 +1,55 @@
+.errorInput{
+    border: solid red 2px !important;
+}
+.errorMessage{
+    visibility: visible !important;
+}
+.mouseButton{
+    background-color: red !important;
+}
+.dark{
+    background-color:rgba(236, 234, 234, 0.92);  
+    text-decoration: none;
+    font-size: 1.7rem;
+    display: flex;            /* Use flexbox to arrange child elements */
+    justify-content:space-between;  /* Pushes button to the far right */
+    align-items: center;
+    text-align: center;
+    padding-left: 170px;
+}
+.darkX{
+    background-color: inherit;
+    border:none;
+    width: 4em;
+}
+.light{
+    background-color:rgba(255, 255, 255, 0.924);
+    text-decoration: none;
+    font-size: 1.7rem;
+    display: flex;            /* Use flexbox to arrange child elements */
+    justify-content: space-between;  /* Pushes button to the far right */
+    align-items: center;
+    padding-left: 170px;
+}
+.lightX{
+    background-color:inherit;
+    border:none;
+    width: 4em;
+}
+.listHover{
+    background-color: rgba(212, 209, 209, 0.81) ;
+}
+.clickList{
+    color: white !important;
+    background-color: rgba(101, 98, 98, 0.81);
+}
+.clickListX{
+    color: inherit;
+    background-color:  inherit;
+}
+.clickListText{
+    text-decoration: line-through;
+}
+.markVisible{
+    visibility: visible !important;
+}
