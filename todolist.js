@@ -22,7 +22,7 @@ function addList(){
     //adding button X for deleting a list
     const X=document.createElement('button')
     X.style.backgroundColor='transparent'
-    X.innerText='✖'
+    X.innerText='✖aaaaaaa'
     list.appendChild(X)
     console.log(list)
     
